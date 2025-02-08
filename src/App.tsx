@@ -1,8 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { AuthProvider } from './hooks <boltAction type="file" filePath="src/App.tsx">import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { AuthProvider } from './hooks/useAuth';
+import { AuthProvider } from './hooks/useAuth';  // Fixed the import statement
 import Layout from './components/Layout/Layout';
 import Dashboard from './pages/Dashboard';
 import Properties from './pages/Properties';
